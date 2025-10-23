@@ -1,37 +1,35 @@
-streamlit>=1.25
-tensorflow>=2.10
-numpy>=1.23
-pillow>=10.0
-transformers>=4.30.0
-datasets>=2.12.0
-torch>=1.13.0   # or the appropriate torch version for your environment (CPU-only or CUDA)
-flask>=2.3.0
-textstat>=0.7.1
-spacy>=3.5.3
-PyMuPDF>=1.22.0
-nltk>=3.8.1
+# streamlit>=1.25
+# tensorflow>=2.10
+# numpy>=1.23
+# pillow>=10.0
+# transformers>=4.30.0
+# datasets>=2.12.0
+# torch>=1.13.0   # or the appropriate torch version for your environment (CPU-only or CUDA)
+# flask>=2.3.0
+# textstat>=0.7.1
+# spacy>=3.5.3
+# PyMuPDF>=1.22.0
+# nltk>=3.8.1
 
 
-# Core Framework
+# Core framework
 streamlit>=1.29.0
 pandas>=2.2.0
 
-# NLP Libraries
+# NLP libraries
 nltk>=3.9
 spacy>=3.6.0
-# Preload the English model so no download is needed at runtime
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.6.0/en_core_web_sm-3.6.0.tar.gz
 
-# Text Analysis & Readability
+# Readability
 textstat>=0.7.3
 
-# PDF Extraction
-PyMuPDF>=1.23.8
+# PDF handling
+PyMuPDF==1.23.8
 
-# Hugging Face Transformers
+# Hugging Face + Torch
 transformers>=4.42.0
 torch>=2.3.0
 
-# Utility Libraries
-pathlib
+# Utilities
 regex
+pathlib

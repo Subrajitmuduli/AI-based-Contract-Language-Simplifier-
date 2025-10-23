@@ -22,12 +22,21 @@ from typing import Dict, Any
 nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
 
+import spacy
+
 try:
     nlp = spacy.load("en_core_web_sm")
 except OSError:
     from spacy.cli import download
     download("en_core_web_sm")
     nlp = spacy.load("en_core_web_sm")
+
+# try:
+#     nlp = spacy.load("en_core_web_sm")
+# except OSError:
+#     from spacy.cli import download
+#     download("en_core_web_sm")
+#     nlp = spacy.load("en_core_web_sm")
 
 Path("logs").mkdir(exist_ok=True)
 Path("models").mkdir(exist_ok=True)
