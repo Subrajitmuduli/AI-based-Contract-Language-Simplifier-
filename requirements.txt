@@ -10,3 +10,28 @@ textstat>=0.7.1
 spacy>=3.5.3
 PyMuPDF>=1.22.0
 nltk>=3.8.1
+
+
+# Core Framework
+streamlit>=1.29.0
+pandas>=2.2.0
+
+# NLP Libraries
+nltk>=3.9
+spacy>=3.6.0
+# Preload the English model so no download is needed at runtime
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.6.0/en_core_web_sm-3.6.0.tar.gz
+
+# Text Analysis & Readability
+textstat>=0.7.3
+
+# PDF Extraction
+PyMuPDF>=1.23.8
+
+# Hugging Face Transformers
+transformers>=4.42.0
+torch>=2.3.0
+
+# Utility Libraries
+pathlib
+regex
