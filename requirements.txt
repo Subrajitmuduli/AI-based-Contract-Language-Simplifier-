@@ -13,24 +13,24 @@ PyMuPDF>=1.22.0
 nltk>=3.8.1
 
 
-# Core framework
-streamlit>=1.29.0
-pandas>=2.2.0
+# # Core framework
+# streamlit>=1.29.0
+# pandas>=2.2.0
 
-# NLP libraries
-nltk>=3.9
-spacy>=3.6.0
+# # NLP libraries
+# nltk>=3.9
+# spacy>=3.6.0
 
-# Readability
-textstat>=0.7.3
+# # Readability
+# textstat>=0.7.3
 
-# PDF handling
-PyMuPDF==1.23.8
+# # PDF handling
+# PyMuPDF==1.23.8
 
-# Hugging Face + Torch
-transformers>=4.42.0
-torch>=2.3.0
+# # Hugging Face + Torch
+# transformers>=4.42.0
+# torch>=2.3.0
 
-# Utilities
-regex
-pathlib
+# # Utilities
+# regex
+# pathlib
