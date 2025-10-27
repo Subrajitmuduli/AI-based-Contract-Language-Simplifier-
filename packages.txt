@@ -1,0 +1,13 @@
+build-essential
+libffi-dev
+libssl-dev
+libxml2-dev
+libxslt1-dev
+zlib1g-dev
+libjpeg-dev
+libpng-dev
+libfreetype6-dev
+poppler-utils
+tesseract-ocr
+ffmpeg
+
