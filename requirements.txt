@@ -11,26 +11,29 @@ textstat>=0.7.1
 spacy>=3.5.3
 PyMuPDF>=1.22.0
 nltk>=3.8.1
+spacy==3.7.1
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz
 
 
-# # Core framework
-# streamlit>=1.29.0
-# pandas>=2.2.0
 
-# # NLP libraries
-# nltk>=3.9
-# spacy>=3.6.0
+# Core framework
+streamlit>=1.29.0
+pandas>=2.2.0
 
-# # Readability
-# textstat>=0.7.3
+# NLP libraries
+nltk>=3.9
+spacy>=3.6.0
 
-# # PDF handling
-# PyMuPDF==1.23.8
+# Readability
+textstat>=0.7.3
 
-# # Hugging Face + Torch
-# transformers>=4.42.0
-# torch>=2.3.0
+# PDF handling
+PyMuPDF==1.23.8
 
-# # Utilities
-# regex
-# pathlib
+# Hugging Face + Torch
+transformers>=4.42.0
+torch>=2.3.0
+
+# Utilities
+regex
+pathlib
