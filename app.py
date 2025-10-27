@@ -31,12 +31,6 @@ except OSError:
     download("en_core_web_sm")
     nlp = spacy.load("en_core_web_sm")
 
-# try:
-#     nlp = spacy.load("en_core_web_sm")
-# except OSError:
-#     from spacy.cli import download
-#     download("en_core_web_sm")
-#     nlp = spacy.load("en_core_web_sm")
 
 Path("logs").mkdir(exist_ok=True)
 Path("models").mkdir(exist_ok=True)
@@ -275,7 +269,7 @@ if "register_mode" not in st.session_state:
     st.session_state.register_mode = False
 
 def login_page():
-    st.title("🔐 Login Page")
+    st.title("🔐Welcome to Clause ease ai ")
     st.write("Please log in to access the dashboard or register for a new account.")
     username = st.text_input("Username")
     password = st.text_input("Password", type="password")
